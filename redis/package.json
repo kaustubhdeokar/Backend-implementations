@@ -5,13 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "redis": "node redisclient.js"
+    "redis": "node redisclient.js",
+    "postgres": "node postgresclient.js"
+
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "perf_hooks": "^0.0.1",
+    "pg": "^8.13.1",
     "redis": "^4.7.0"
   }
 }
