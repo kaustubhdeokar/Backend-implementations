@@ -1,0 +1,17 @@
+{
+  "name": "redis-performance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "redis": "node redisclient.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "perf_hooks": "^0.0.1",
+    "redis": "^4.7.0"
+  }
+}
